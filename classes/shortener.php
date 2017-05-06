@@ -11,7 +11,8 @@ class Shortener
 	{
 		// Соединяемся с сервером MySQL 
 		// и записываем объект в свойство $connection: 
-		$this->connection = new mysqli('localhost', 'root', '', 'shortener'); 
+		$this->connection = new mysqli('localhost', 'root', '', 'shortener');
+		// $this->connection = new mysqli('sql210.byethost24.com', 'b24_20062583', 'short99test8', 'b24_20062583_shortener');
 	}
 
 	// Метод который генерирует некий код:	
