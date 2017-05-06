@@ -73,7 +73,8 @@ class Shortener
 
 			// Сгенерируем короткий URL:
 			$short_url = "http://shortener.local/$code";
-
+			// $short_url = "http://short.byethost24.com/$code";
+			
 			// Затем обновляем запись, вставив туда $code и $short_url:  
 			$this->connection->query("UPDATE links SET code = '{$code}' WHERE url = '{$url}'");
 			$this->connection->query("UPDATE links SET short_url = '{$short_url}' WHERE url = '{$url}'");

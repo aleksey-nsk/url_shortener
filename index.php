@@ -19,7 +19,7 @@
 			</h1>
 
 			<h3>
-				Исходники на <a href="https://github.com/aleksey-nsk/url_shortener">GitHub</a>
+				Исходники на <a href="https://github.com/aleksey-nsk/url_shortener" target="_blank">GitHub</a>
 			</h3>
 
 			<form method="POST" action="handler.php">
@@ -60,10 +60,10 @@
 					$database = 'shortener';
 
 					// Параметры подключения для выбранного хостинга:
-					// $host = ''; 
-					// $user = ''; 
-					// $password = ''; 
-					// $database = '';
+					// $host = 'sql210.byethost24.com'; 
+					// $user = 'b24_20062583'; 
+					// $password = 'short99test8'; 
+					// $database = 'b24_20062583_shortener';
 
 					$mysqli = new mysqli($host, $user, $password, $database); 
 
