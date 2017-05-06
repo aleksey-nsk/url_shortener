@@ -1,0 +1,76 @@
+body {
+	/* border: 1px solid Green; */
+}
+
+#main_container {
+	border: 1px solid Silver;
+	width: 600px;
+	padding-left: 10px;
+	padding-right: 10px; 
+	margin: auto; /* выравниваем по центру */ 	
+}
+
+h1 {
+	/* border: 1px solid Green; */
+	text-align: center;
+	font-family: "Comic Sans MS";
+}
+
+h3 {
+	/* border: 1px solid Blue; */
+	text-align: center;
+	font-family: "Comic Sans MS";
+}
+
+h3 a {
+	text-decoration: none;
+	color: Chocolate;
+}
+
+form {
+	/* border: 1px solid Green; */
+	margin-bottom: 10px;
+}
+
+input[type="url"] {
+	border: 1px solid Silver;
+	width: 430px;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+input[type="submit"] {
+	border: 1px solid Silver;
+	background-color: Silver;
+	width: 140px;
+	padding: 5px;	
+}
+
+input[type="submit"]:hover {
+	border: 1px solid SteelBlue;
+	background-color: SteelBlue;
+	color: White;
+}
+
+#message {
+	/* border: 1px solid Red; */
+	height: 20px;	
+	/* margin-bottom: 10px; */ 	
+	color: Red;
+}
+
+#urls {
+	/* border: 1px solid Green; */ 
+	/* height: 300px; */ 
+	margin-bottom: 10px;
+}
+
+#urls a {
+	text-decoration: none;
+	color: Chocolate;
+}
+
+#urls .del {
+	color: Red;
+	font-weight: bold;
+}
