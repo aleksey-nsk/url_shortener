@@ -83,5 +83,20 @@ class Shortener
 			// Возвращаем код $code из метода: 
 			return $code;
 		}
+	}
+
+	// Метод который вернёт URL из БД:
+	public function getUrl($code)
+	{
+		$code = $this->connection->query("SELECT url FROM links WHERE code = '$code'");
+
+		if($code->num_rows) 
+		{
+			return $code->fetch_object()->url;
+		}
+		else
+		{
+			return '';
+		}
 	}	
 }

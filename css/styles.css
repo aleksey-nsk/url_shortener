@@ -74,3 +74,28 @@ input[type="submit"]:hover {
 	color: Red;
 	font-weight: bold;
 }
+
+#page_404 {
+	border: 1px solid Silver;
+	width: 300px;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;	
+}
+
+#page_404 h1 {
+	/* border: 1px solid Blue; */
+}
+
+#page_404 p {
+	/* border: 1px solid Purple; */
+	color: Red;
+}
+
+#page_404 a {
+	/* border: 1px solid Red; */
+	text-decoration: none;
+	font-weight: bold;
+	color: Chocolate;
+}

@@ -1,1 +1,15 @@
-AddDefaultCharset UTF-8
+# Для локального сервера необходимо передавать ссылку вида:
+# http://shortener.local/redirect.php?code=24r9cg
+#
+# Для того чтобы можно было передавать ссылку вида:
+# http://shortener.local/24r9cg
+#
+# нужно прописать в файл .htaccess регулярное выражение:
+
+RewriteEngine on
+
+# Для локального сервера:
+RewriteRule ^([a-zA-Z0-9]+)$ http://shortener.local/redirect.php?code=$1
+
+# Для хостинга:
+# RewriteRule ^([a-zA-Z0-9]+)$ http://short.byethost24.com/redirect.php?code=$1
